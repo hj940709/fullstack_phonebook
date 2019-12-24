@@ -7,18 +7,19 @@
     "start": "node index.js",
     "watch": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-ui": "cd ../full_stack/part_2/phonebook && npm run build"
+    "build-ui": "cd ../full_stack/part_2/phonebook && npm run build",
+    "deploy": "git add . && git commit -m 'deploy' && git push heroku master"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hj940709/fullstack_phonebook_be.git"
+    "url": "git+https://github.com/hj940709/fullstack_phonebook.git"
   },
   "author": "jue.hou",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hj940709/fullstack_phonebook_be/issues"
+    "url": "https://github.com/hj940709/fullstack_phonebook/issues"
   },
-  "homepage": "https://github.com/hj940709/fullstack_phonebook_be#readme",
+  "homepage": "https://github.com/hj940709/fullstack_phonebook#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
